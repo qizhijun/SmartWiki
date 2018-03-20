@@ -142,7 +142,7 @@
 <script type="text/javascript" src="{{asset('static/scripts/jquery.form.js')}}"></script>
 <script type="text/javascript" src="{{asset('static/layer/layer.js')}}"></script>
 <script type="text/javascript" src="{{asset('static/scripts/json2.js')}}"></script>
-<script type="text/javascript" src="{{asset('static/editormd/editormd.js')}}"></script>
+<script type="text/javascript" src="{{asset('static/editormd/editormd.js')}}?v=20180320"></script>
 
 <script type="text/javascript">
     /**

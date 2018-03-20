@@ -4501,6 +4501,11 @@
             document.createEvent("TouchEvent");
             eventType = touchEventType;
         } catch(e) {}
+		
+		try {
+			document.createEvent("MouseEvent");
+			eventType = mouseEventType;
+		} catch(e) {}
 
         return eventType;
     };
